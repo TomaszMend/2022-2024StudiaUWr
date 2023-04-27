@@ -1,0 +1,10 @@
+import math
+print("// daje liczbe zaokraglona w dol (przyklady: 7//4 i 5//4)")
+print(7//4)
+print(5//4)
+print("round zaokragla do gory i dolu zalezenie od liczby po przecinku (przyklad: round(2.2) oraz round(2.9))")
+print(round(2.2))
+print(round(2.9))
+print("floor zaokragla liczbe w dol (przyklady: math.floor(4.7) oraz math.floor(4.2))")
+print(math.floor(4.7))
+print(math.floor(4.2))
