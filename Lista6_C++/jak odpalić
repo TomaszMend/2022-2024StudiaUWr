@@ -1,0 +1,7 @@
+g++ -c Zad.cpp
+-Tworzy "Zad.o"
+g++ Zad.o -o sfml-app -lsfml-graphics -lsfml-window -lsfml-system
+-Tworzy "sfml-app"
+./sfml-app
+-Odpala program
+
