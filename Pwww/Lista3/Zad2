@@ -1,0 +1,33 @@
+1.
+var List = ['Quick', 'brown', 'fox', 'jumps', 'over', 'the', 'lazy', 'dog'];
+
+List.length
+8
+
+console.log(List.join(''));
+Quickbrownfoxjumpsoverthelazydog
+
+console.log(List.join(' '));
+Quick brown fox jumps over the lazy dog
+
+2.
+const alfabet = ['Plum', 'Orange', 'Apple', 'Gooseberry','Pear', 'Pineapple']
+
+alfabet.sort();
+Array(6) [ "Apple", "Gooseberry", "Orange", "Pear", "Pineapple", "Plum" ]
+
+for(var i = 0; i<alfabet.length;i++){
+    if(alfabet[i] === "Apple"){
+    alfabet.splice(i,1);
+    i--;
+}
+    if(alfabet[i] === "Orange"){
+    alfabet.splice(i,1);
+    i--;
+}
+}
+
+console.log(alfabet)
+Array(4) [ "Gooseberry", "Pear", "Pineapple", "Plum" ]
+
+3.

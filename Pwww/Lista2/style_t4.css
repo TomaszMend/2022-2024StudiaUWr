@@ -1,0 +1,9 @@
+.flex-container {display: flex;flex-direction: row; flex-wrap:wrap; }
+
+.inner-div { margin-left: 5px;font-family: "Roboto"; font-size: 20px;}
+.inner-div:nth-child(even){
+text-decoration-line: underline;
+}
+.inner-div:nth-child(odd){
+font-weight: bold;
+}

@@ -1,0 +1,32 @@
+1.
+liczba1 = 5
+5
+liczba2 = 17
+17
+liczba1+liczba2
+22 
+
+2.
+function dodawanie(x,y){
+return x+y
+}
+undefined
+dodawanie(9,9)
+18
+dodawanie(9,2)
+11 
+
+3.
+function licznikfun(){
+return licznik += 1
+} 
+licznik=0
+0
+licznikfun()
+1
+licznikfun()
+2
+licznikfun()
+3
+licznikfun()
+4 

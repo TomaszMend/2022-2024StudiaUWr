@@ -1,0 +1,17 @@
+.flex-container {display: flex; flex-wrap:wrap; }
+
+.inner-div { margin-left: 5px;font-family: "Roboto"; font-size: 20px;}
+.inner-div:nth-child(even){
+text-decoration-line: underline;
+}
+.inner-div:nth-child(odd){
+font-weight: bold;
+}
+@media (max-width: 600px) {
+.flex-container {flex-direction: row; background-color: grey; flex-wrap:nowrap;}
+.inner-div {font-size: 8px;}
+}
+@media (min-width: 1140px){
+.flex-container {flex-direction: column;background-color: blue; overflow-x: hidden;}
+.inner-div {font-size: 40px;}
+}

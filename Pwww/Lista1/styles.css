@@ -1,0 +1,17 @@
+<style>
+	h1 {color: red}
+	h2 {color: red}
+	p {margin-left: 10px}
+	#div1 {border-style: solid; padding: 10px; border-radius: 10px}
+	.div2 {border-style: solid; padding: 30px; border-radius: 0px ;float: left;
+  width: 25%; padding: 10px; height: 100px;}
+	body {background-color: gray}
+	
+  	.row {display: flex;flex-direction: row;justify-content: center;}
+  	.column {display: flex; flex-direction:column;}
+  	.border1 {border-style: solid; width: 90px; height: 90px; background-color: #aaa; transition: background 3s}
+  	.border1:hover {background-color: blue;}
+  	.border2 {border-style: solid; width: 90px; height: 90px;background-color: #aaa; transition: background 3s}
+  	.border2:hover {background-color: red}
+	
+	</style>

@@ -1,0 +1,4 @@
+.flex-container {display: flex;flex-direction: row; overflow-x: auto;}
+.flex {display: flex;flex-direction: row;}
+.inner-div {background-color: gray; margin-left: 5px;}
+
